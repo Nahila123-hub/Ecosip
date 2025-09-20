@@ -24,7 +24,7 @@ const products = [
     name:"Minimal Bamboo Bottle",
     price:250,
     size:"500ml",
-    img:"hero.png",
+    img:"minimal.png",
     description:"This Minimal Bamboo Bottle is crafted from sustainable bamboo, designed for eco-conscious individuals. Perfect for carrying water or other beverages, it keeps your drinks fresh and cool. Ideal for daily use or travel.",
     features:["Eco-Friendly", "Reusable", "Toxin-Free", "Stylish Minimal Design"],
     reviews:[
@@ -111,3 +111,4 @@ if(shopGrid){
     });
   });
 }
+
