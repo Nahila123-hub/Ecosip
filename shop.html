@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoSip - Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">EcoSip</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="products">
+  <h2>Shop Our Bottles</h2>
+
+  <!-- Filters -->
+  <div class="filters">
+    <label for="size">Size:</label>
+    <select id="size">
+      <option value="all">All</option>
+      <option value="500ml">500ml</option>
+      <option value="750ml">750ml</option>
+    </select>
+
+    <label for="price">Max Price:</label>
+    <input type="number" id="price" placeholder="Enter max price">
+    <button id="filterBtn">Apply Filters</button>
+  </div>
+
+  <div class="product-grid" id="shopGrid">
+    <!-- Products dynamically generated -->
+  </div>
+</section>
+
+<footer>
+  <div class="footer-section">
+    <h4>EcoSip</h4>
+    <p>Contact: info@ecosip.com</p>
+    <p>Phone: +91 9819794119</p>
+  </div>
+  <div class="footer-section">
+    <h4>Quick Links</h4>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-section">
+    <h4>Follow Us</h4>
+    <a href="#">Instagram</a>
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
